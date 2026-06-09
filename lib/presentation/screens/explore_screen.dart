@@ -34,7 +34,6 @@ class ExploreScreen extends ConsumerWidget {
     final playerNotifier = ref.read(playerProvider.notifier);
     final accent = ref.watch(themeProvider).accent;
 
-    ref.listen(themeProvider, (_, __) {});
     WidgetsBinding.instance.addPostFrameCallback((_) {
       ref.read(themeProvider.notifier).registerRoute('explore');
     });
