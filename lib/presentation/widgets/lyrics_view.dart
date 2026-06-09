@@ -2,7 +2,6 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../data/models/lyrics.dart';
-import '../../providers/player_provider.dart';
 import '../../core/constants/colors.dart';
 
 enum LyricsMode { line, word, karaoke, wave, neon, cinema, float, pulse }

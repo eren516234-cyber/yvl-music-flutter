@@ -4,7 +4,6 @@ import 'package:go_router/go_router.dart';
 import 'mini_player.dart';
 import 'full_player.dart';
 import '../../providers/player_provider.dart';
-import '../../providers/settings_provider.dart';
 
 class AppShell extends ConsumerWidget {
   final Widget child;

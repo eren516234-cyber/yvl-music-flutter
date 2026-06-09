@@ -37,7 +37,7 @@ jobs:
         run: flutter analyze --no-fatal-infos 2>&1 || true
 
       - name: Build release APK
-        run: flutter build apk --release --no-shrink
+        run: flutter build apk --release --no-shrink --verbose
 
       - name: Rename APK
         run: |

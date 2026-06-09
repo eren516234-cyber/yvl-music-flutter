@@ -8,7 +8,6 @@ import '../../data/models/track.dart';
 import '../../data/models/album.dart';
 import '../../data/models/artist.dart';
 import '../../data/services/saavn_service.dart';
-import '../../providers/player_provider.dart';
 import '../../providers/settings_provider.dart';
 import '../../providers/recent_searches_provider.dart';
 import '../widgets/song_row.dart';

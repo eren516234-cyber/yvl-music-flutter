@@ -279,7 +279,7 @@ class _FullPlayerState extends ConsumerState<FullPlayer>
               ],
             ),
           ),
-          if (_showPlaylistPicker && track != null)
+          if (_showPlaylistPicker)
             _PlaylistPickerSheet(
               track: PlaylistTrack(id: track.id, title: track.title, artist: track.artist, cover: track.cover),
               onClose: () => setState(() => _showPlaylistPicker = false),
